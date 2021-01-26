@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Example usage for validatro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This isn't a completed module or example site - might be messy.
+
+Like this readme...
 
 ## Available Scripts
 
