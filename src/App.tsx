@@ -17,7 +17,7 @@ export default class App extends Component {
         'sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t' +
         ' sm:border-gray-200 sm:pt-5'
       }>
-        <Component />
+        <Component/>
       </div>
     );
   }
@@ -25,7 +25,8 @@ export default class App extends Component {
   renderCategory = (index: PossibleInputs, k: number) => {
     const inputs = Object.keys(Inputs[index]);
     return (
-      <div key={k} className="mt-5 divide-y divide-gray-200 sm:mt-4">
+      <div key={k}
+        className="sm:mt-4 md:mt-6 lg: mt-16">
         <div>
           <div>
             <h3 className={
@@ -49,7 +50,7 @@ export default class App extends Component {
 
   public render() {
     return (
-      <form className="px-10 max-w-2xl mx-auto mt-10 divide-y divide-gray-200">
+      <form className="px-10 max-w-2xl mx-auto mt-10">
         {Object.keys(Inputs).map(this.renderCategory)}
       </form>
     );

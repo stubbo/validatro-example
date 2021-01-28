@@ -10739,10 +10739,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validatro@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/validatro/-/validatro-0.1.7.tgz#74da821a0a0c8d595b48315ce930dcbff5cf2c5d"
-  integrity sha512-yK7CVPYlskyWgQM7mxuEEWI57SlFn2Jl5bDfW6gJaM1qhnlaDhhY7V2rB1mgMtM+GaDM8AaEjFaId90WfKtYfg==
+validatro@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/validatro/-/validatro-0.1.10.tgz#dea19a64d54bf0df4a224e6a0e8093851a54db6a"
+  integrity sha512-nC2zbDuk2A8R2nNbKlW1G4zaTNVRMEOvsUOc4k88DXDVFTJdcDX+RrRE+mCNGZigQU+scKeNac3cQ9A8Y6BpyA==
 
 vary@~1.1.2:
   version "1.1.2"

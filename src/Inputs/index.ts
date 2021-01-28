@@ -1,4 +1,5 @@
 import Text from './Text';
+import Misc from './Misc';
 import {ComponentClass} from 'react';
 
 export interface Inputs {
@@ -9,6 +10,7 @@ export interface Inputs {
 
 const inputs: Inputs = {
   Text,
+  Misc
 }
 
 export default inputs;
